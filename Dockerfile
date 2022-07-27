@@ -8,4 +8,4 @@ COPY index.html /var/www/html/
 
 EXPOSE 22
 
-CMD [“nginx”,”-g”,”daemon off;”]
+CMD [“nginx”,”-g”,”daemon on;”]
