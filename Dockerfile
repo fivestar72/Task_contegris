@@ -1,4 +1,4 @@
-FROM devops_image
+FROM ubuntu
 
 RUN apt-get update
 
